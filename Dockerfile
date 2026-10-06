@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get install -y apache2 mariadb-server curl && \
     apt-get clean
 
-RUN echo "<h1>Lab 4: Apache + MariaDB in Docker</h1>" > /var/www/html/index.html
+RUN echo "<h1>SPP Lab: Apache + MariaDB in Docker</h1>" > /var/www/html/index.html
 
 EXPOSE 80
 
